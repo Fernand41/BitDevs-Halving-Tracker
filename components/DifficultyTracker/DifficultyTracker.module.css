@@ -1,0 +1,180 @@
+.card {
+  background: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 16px;
+  padding: 2rem;
+  color: #f9fafb;
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+}
+
+.header { margin-bottom: 1.5rem; }
+
+.badge {
+  background: #1d4ed8;
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  text-transform: uppercase;
+}
+
+.header h2 {
+  margin: 0.75rem 0 0.25rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+}
+
+.subtext { color: #9ca3af; font-size: 0.85rem; margin: 0; }
+
+.notifBanner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #1e3a5f;
+  border-radius: 10px;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
+  color: #93c5fd;
+}
+
+.notifBanner button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.3rem 0.8rem;
+  cursor: pointer;
+  font-size: 0.75rem;
+}
+
+.alert {
+  border-radius: 10px;
+  padding: 0.8rem 1rem;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.alertFast { background: #052e16; color: #86efac; border: 1px solid #16a34a; }
+.alertSlow { background: #431407; color: #fdba74; border: 1px solid #ea580c; }
+
+.gaugeWrap { margin: 1.5rem 0; }
+
+.gaugeLabel {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.8rem;
+  color: #9ca3af;
+  margin-bottom: 0.5rem;
+}
+
+.gaugeBar {
+  height: 12px;
+  background: #1f2937;
+  border-radius: 999px;
+  position: relative;
+  overflow: hidden;
+}
+
+.gaugeFill {
+  height: 100%;
+  border-radius: 999px;
+  transition: width 0.5s ease;
+}
+
+.gaugeTarget {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  height: 100%;
+  width: 2px;
+  background: #ffffff33;
+  z-index: 1;
+}
+
+.gaugeScale {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.65rem;
+  color: #4b5563;
+  margin-top: 0.3rem;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+}
+
+.stat {
+  background: #1f2937;
+  border-radius: 10px;
+  padding: 0.75rem 1rem;
+}
+
+.statLabel {
+  display: block;
+  font-size: 0.65rem;
+  color: #6b7280;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.3rem;
+}
+
+.statVal { font-size: 1.1rem; font-weight: 700; }
+
+.epochWrap { margin: 1rem 0; }
+
+.epochLabel {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: #9ca3af;
+  margin-bottom: 0.4rem;
+}
+
+.epochBar {
+  height: 6px;
+  background: #1f2937;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.epochFill {
+  height: 100%;
+  background: linear-gradient(90deg, #1d4ed8, #60a5fa);
+  border-radius: 999px;
+  transition: width 0.5s ease;
+}
+
+.explain {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+  background: #0f172a;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.explainIcon { font-size: 1.5rem; flex-shrink: 0; }
+
+.explain p {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #9ca3af;
+  line-height: 1.5;
+  font-family: 'Inter', sans-serif;
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.7rem;
+  color: #4b5563;
+  margin-top: 1rem;
+}

@@ -1,0 +1,74 @@
+.card {
+  background: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 16px;
+  padding: 2rem;
+  color: #f9fafb;
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  grid-column: 1 / -1;
+}
+
+.header { margin-bottom: 1.5rem; }
+
+.badge {
+  background: #7c3aed;
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  text-transform: uppercase;
+}
+
+.header h2 {
+  margin: 0.75rem 0 0.25rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+}
+
+.subtext { color: #9ca3af; font-size: 0.85rem; margin: 0; }
+
+.tooltip {
+  background: #1f2937;
+  border: 1px solid #374151;
+  border-radius: 8px;
+  padding: 0.5rem 0.75rem;
+}
+
+.tooltipDate { font-size: 0.7rem; color: #9ca3af; margin: 0 0 0.25rem; }
+.tooltipVal  { font-size: 0.95rem; font-weight: 700; margin: 0; }
+
+.legend {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-top: 1rem;
+  font-size: 0.75rem;
+  color: #9ca3af;
+  font-family: 'Inter', sans-serif;
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dotGreen { background: #22c55e; }
+.dotRed   { background: #ef4444; }
+
+.footer {
+  text-align: center;
+  font-size: 0.7rem;
+  color: #4b5563;
+  margin-top: 1rem;
+}

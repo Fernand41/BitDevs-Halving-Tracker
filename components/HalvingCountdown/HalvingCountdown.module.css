@@ -1,0 +1,144 @@
+.card {
+  background: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 16px;
+  padding: 2rem;
+  color: #f9fafb;
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+}
+
+.header { margin-bottom: 2rem; }
+
+.badge {
+  background: #f97316;
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  text-transform: uppercase;
+}
+
+.header h2 {
+  margin: 0.75rem 0 0.25rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+}
+
+.subtext { color: #9ca3af; font-size: 0.85rem; margin: 0; }
+
+.countdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  margin: 2rem 0;
+}
+
+.countdownGroup {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.unit { text-align: center; }
+
+.num {
+  display: block;
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #f97316;
+  line-height: 1;
+}
+
+.label {
+  display: block;
+  font-size: 0.65rem;
+  color: #6b7280;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: 0.25rem;
+}
+
+.sep {
+  font-size: 2.5rem;
+  color: #374151;
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+
+.progressWrap { margin: 1.5rem 0; }
+
+.progressBar {
+  height: 8px;
+  background: #1f2937;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  background: linear-gradient(90deg, #f97316, #fb923c);
+  border-radius: 999px;
+  transition: width 0.5s ease;
+}
+
+.progressLabels {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.7rem;
+  color: #6b7280;
+  margin-top: 0.4rem;
+}
+
+.infos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+  margin: 1.5rem 0;
+}
+
+.infoItem {
+  background: #1f2937;
+  border-radius: 10px;
+  padding: 0.75rem 1rem;
+}
+
+.infoLabel {
+  display: block;
+  font-size: 0.65rem;
+  color: #6b7280;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.3rem;
+}
+
+.infoVal {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #f9fafb;
+}
+
+.muted { color: #6b7280 !important; font-size: 0.85rem !important; }
+.orange { color: #f97316 !important; }
+
+.timing {
+  text-align: center;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.early { background: #052e16; color: #86efac; }
+.late  { background: #1c1917; color: #d6d3d1; }
+
+.footer {
+  text-align: center;
+  font-size: 0.7rem;
+  color: #4b5563;
+  margin-top: 1rem;
+}
