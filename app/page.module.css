@@ -65,6 +65,12 @@
 
 @media (max-width: 768px) {
   .grid { grid-template-columns: 1fr; }
+
+  .app { padding: 1rem; }
+
+  .header { gap: 0.5rem; }
+
+  .header h1 { font-size: 1.1rem; }
 }
 
 .footer {

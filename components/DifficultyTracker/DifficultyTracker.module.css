@@ -178,3 +178,8 @@
   color: #4b5563;
   margin-top: 1rem;
 }
+
+@media (max-width: 480px) {
+  .card { padding: 1.2rem; }
+  .stats { grid-template-columns: 1fr; }
+}
