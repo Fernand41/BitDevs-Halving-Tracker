@@ -23,10 +23,12 @@ export default function Home() {
         <DifficultyHistoryChart />
       </main>
 
-      <footer className={styles.footer}>
-        Données : <a href="https://mempool.space" target="_blank" rel="noreferrer">mempool.space</a>
-        &nbsp;· BitDevs Cotonou 🇧🇯
-      </footer>
+    <footer className={styles.footer}>
+  Données : <a href="https://mempool.space" target="_blank" rel="noreferrer">mempool.space</a>
+  &nbsp;· BitDevs Cotonou 🇧🇯
+  &nbsp;· Produit par{' '}
+  <a href="https://github.com/Fernand41" target="_blank" rel="noreferrer">Fernand</a>
+</footer>
     </div>
   );
 }
