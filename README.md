@@ -23,7 +23,7 @@ L'application comporte **3 modules** :
 
 - **Framework** : [Next.js 15](https://nextjs.org/) (App Router)
 - **Frontend** : React 18
-- **Backend** : API Routes Next.js (pas besoin de PHP ni XAMPP)
+- **Backend** : API Routes Next.js 
 - **Données** : [mempool.space](https://mempool.space) API (gratuite, sans clé)
 - **Graphiques** : Recharts
 
